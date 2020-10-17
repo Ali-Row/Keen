@@ -1,0 +1,107 @@
+// Default vars
+$default-border-color: #e6eaed;
+$default-btn-hover-color: #ffffff;
+
+// Colours
+$dark: rgb(41, 41, 41);
+$red: rgb(212, 57, 57);
+$green: rgb(66, 209, 90);
+$blue: rgb(17, 125, 207);
+$purple: rgb(96, 57, 214);
+$orange: rgb(214, 143, 57);
+$yellow: rgb(214, 214, 57);
+
+// Hover colours
+$hover-dark: rgb(55, 55, 55);
+$hover-red: rgb(224, 72, 72);
+$hover-green: rgb(93, 231, 116);
+$hover-blue: rgb(70, 132, 199);
+$hover-purple: rgb(113, 74, 231);
+$hover-orange: rgb(221, 158, 80);
+$hover-yellow: rgb(235, 235, 86);
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+// Default button
+.keen-btn {
+    display: inline-block;
+    font-weight: 400;
+    color: $default-border-color;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 1px solid $default-border-color;
+    padding: .6rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: 0.2s;
+}
+.keen-btn:hover {
+    border-color: $default-btn-hover-color;
+    color: $default-btn-hover-color;
+    box-shadow: 4px 4px;
+}
+.keen-btn:focus {
+    outline: 0;
+}
+
+// Button colour classes
+.btn-dark {
+    border-color: $dark;
+}
+.btn-dark:hover {
+    border-color: $hover-dark;
+    box-shadow: 4px 4px $hover-dark;
+}
+.btn-red {
+    border-color: $red;
+}
+.btn-red:hover {
+    border-color: $hover-red;
+    box-shadow: 4px 4px $hover-red;
+}
+.btn-green {
+    border-color: $green;
+}
+.btn-green:hover {
+    border-color: $hover-green;
+    box-shadow: 4px 4px $hover-green;
+}
+.btn-blue {
+    border-color: $blue;
+}
+.btn-blue:hover {
+    border-color: $hover-blue;
+    box-shadow: 4px 4px $hover-blue;
+}
+.btn-purple {
+    border-color: $purple;
+}
+.btn-purple:hover {
+    border-color: $hover-purple;
+    box-shadow: 4px 4px $hover-purple;
+}
+.btn-orange {
+    border-color: $orange;
+}
+.btn-orange:hover {
+    border-color: $hover-orange;
+    box-shadow: 4px 4px $hover-orange;
+}
+.btn-yellow {
+    border-color: $yellow;
+}
+.btn-yellow:hover {
+    border-color: $hover-yellow;
+    box-shadow: 4px 4px $hover-yellow;
+}
+
+// Text colour classes
+.txt-dark {
+    color: $dark;
+}
+.txt-dark:hover {
+    color: $hover-dark;
+}
