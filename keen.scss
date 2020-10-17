@@ -54,28 +54,28 @@ body {
 
 // Nav link active colors
 .nav-link-active {
-    border-bottom: solid $default-border-color;
+    border-bottom: solid 4px $default-border-color;
 } 
 .nav-link-active-dark {
-    border-bottom: solid $dark;
+    border-bottom: solid 4px $dark;
 }    
 .nav-link-active-red {
-    border-bottom: solid $red;
+    border-bottom: solid 4px $red;
 }
 .nav-link-active-green {
-    border-bottom: solid $green;
+    border-bottom: solid 4px $green;
 }
 .nav-link-active-blue {
-    border-bottom: solid $blue;
+    border-bottom: solid 4px $blue;
 }
 .nav-link-active-purple {
-    border-bottom: solid $purple;
+    border-bottom: solid 4px $purple;
 }  
 .nav-link-active-orange {
-    border-bottom: solid $orange;
+    border-bottom: solid 4px $orange;
 }  
 .nav-link-active-yellow {
-    border-bottom: solid $yellow;
+    border-bottom: solid 4px $yellow;
 }      
 
 // Default button
@@ -178,7 +178,7 @@ body {
     background-color: $yellow;
 }
 
-// Paddings
+// Paddings NEED FINISHING
 .pad-5 {
     padding: 3rem;
 }
@@ -195,7 +195,7 @@ body {
     padding: 3rem;
 }
 
-// Margins
+// Margins NEED FINISHING
 .mar-5 {
     margin: 2rem;
 }
@@ -236,3 +236,12 @@ body {
 .border {
     border: 1px solid $default-border-color;
 }
+.rounded-max {
+    border-radius: 3rem;
+} 
+.rounded-med {
+    border-radius: .75rem;
+} 
+.rounded-min {
+    border-radius: .25rem;
+} 

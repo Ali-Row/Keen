@@ -38,35 +38,35 @@ body {
 }
 
 .nav-link-active {
-  border-bottom: solid #e6eaed;
+  border-bottom: solid 4px #e6eaed;
 }
 
 .nav-link-active-dark {
-  border-bottom: solid #1f1e1e;
+  border-bottom: solid 4px #1f1e1e;
 }
 
 .nav-link-active-red {
-  border-bottom: solid #d43939;
+  border-bottom: solid 4px #d43939;
 }
 
 .nav-link-active-green {
-  border-bottom: solid #42d15a;
+  border-bottom: solid 4px #42d15a;
 }
 
 .nav-link-active-blue {
-  border-bottom: solid #117dcf;
+  border-bottom: solid 4px #117dcf;
 }
 
 .nav-link-active-purple {
-  border-bottom: solid #6039d6;
+  border-bottom: solid 4px #6039d6;
 }
 
 .nav-link-active-orange {
-  border-bottom: solid #d68f39;
+  border-bottom: solid 4px #d68f39;
 }
 
 .nav-link-active-yellow {
-  border-bottom: solid #d6d639;
+  border-bottom: solid 4px #d6d639;
 }
 
 .keen-btn {
@@ -269,5 +269,17 @@ body {
 
 .border {
   border: 1px solid #e6eaed;
+}
+
+.rounded-max {
+  border-radius: 3rem;
+}
+
+.rounded-med {
+  border-radius: 0.75rem;
+}
+
+.rounded-min {
+  border-radius: 0.25rem;
 }
 /*# sourceMappingURL=keen.css.map */
