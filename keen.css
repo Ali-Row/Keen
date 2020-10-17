@@ -32,6 +32,8 @@ body {
   font-size: 1.25rem;
   color: #e6eaed;
   margin-right: 3rem;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .nav-link:hover {
