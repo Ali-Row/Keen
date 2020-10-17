@@ -10,7 +10,7 @@ body {
 .nav {
   background-color: #1f1e1e;
   padding: 1.5rem;
-  /* width: 100%; */
+  width: 100vmax;
 }
 
 .nav-items {
