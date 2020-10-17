@@ -25,23 +25,58 @@ $hover-yellow: rgb(235, 235, 86);
 
 body {
     background-color: rgb(66, 64, 64);
+    font-family: 'Poppins', sans-serif;
+}
+* {
+    margin: 0;
 }
 
 // Default nav
 .nav {
-    background-color: $default-nav-color;
-    padding: 1rem;
+    background-color: $dark;
+    padding: 1.5rem;
 }   
 .nav-items {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     list-style-type: none;
 }
 .nav-link {
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    color: $default-border-color;
+    margin-right: 3rem;
 } 
+.nav-link:hover {
+    color: $default-btn-hover-color;
+}
+
+// Nav link active colors
+.nav-link-active {
+    border-bottom: solid $default-border-color;
+} 
+.nav-link-active-dark {
+    border-bottom: solid $dark;
+}    
+.nav-link-active-red {
+    border-bottom: solid $red;
+}
+.nav-link-active-green {
+    border-bottom: solid $green;
+}
+.nav-link-active-blue {
+    border-bottom: solid $blue;
+}
+.nav-link-active-purple {
+    border-bottom: solid $purple;
+}  
+.nav-link-active-orange {
+    border-bottom: solid $orange;
+}  
+.nav-link-active-yellow {
+    border-bottom: solid $yellow;
+}      
 
 // Default button
 .keen-btn {
@@ -117,38 +152,87 @@ body {
     box-shadow: 4px 4px $hover-yellow;
 }
 
-// Solid button color classes
-.solid-light {
+// Solid background color classes
+.bg-light {
     background-color: $default-border-color;
 }
-.solid-dark {
+.bg-dark {
     background-color: $dark;
 }
-.solid-red {
+.bg-red {
     background-color: $red;
 }
-.solid-green {
+.bg-green {
     background-color: $green; 
 }
-.solid-blue {
+.bg-blue {
     background-color: $blue;
 }
-.solid-purple {
+.bg-purple {
     background-color: $purple;
 }
-.solid-orange {
+.bg-orange {
     background-color: $orange;
 }
-.solid-yellow {
+.bg-yellow {
     background-color: $yellow;
 }
 
+// Paddings
+.pad-5 {
+    padding: 3rem;
+}
+.pad-4 {
+    padding: 3rem;
+}
+.pad-3 {
+    padding: 3rem;
+}
+.pad-2 {
+    padding: 3rem;
+}
+.pad-1 {
+    padding: 3rem;
+}
 
+// Margins
+.mar-5 {
+    margin: 2rem;
+}
+.mar-4 {
+    margin: 2rem;
+}
+.mar-3 {
+    margin: 2rem;
+}
+.mar-2 {
+    margin: 2rem;
+}
+.mar-1 {
+    margin: 2rem;
+}
+.mar-t-5 {
+    margin-top: 2rem;
+}
+.mar-t-4 {
+    margin-top: 2rem;
+}
+.mar-t-3 {
+    margin-top: 2rem;
+}
+.mar-t-2 {
+    margin-top: 2rem;
+}
+.mar-t-1 {
+    margin-top: 2rem;
+}
+.mar-auto {
+    margin: auto;
+}
 
-
-
-
-// Text color classes
-// .txt-dark {
-//     color: $dark;
-// } 
+.txt-center {
+    align-items: center;
+} 
+.border {
+    border: 1px solid $default-border-color;
+}
