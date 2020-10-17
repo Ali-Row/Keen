@@ -58,6 +58,12 @@ body {
   color: #ffffff;
 }
 
+.nav-input {
+  padding: 10px;
+  border: none;
+  outline: 0;
+}
+
 .nav-link-active {
   border-bottom: solid 4px #e6eaed;
 }
@@ -90,13 +96,16 @@ body {
   border-bottom: solid 4px #d6d639;
 }
 
-.input {
-  border: solid 3px #ffffff;
+.input, .nav-input {
   font-weight: 400;
   color: #e6eaed;
   vertical-align: middle;
   font-size: 1rem;
   color: #1f1e1e;
+}
+
+.input {
+  border: solid 3px #ffffff;
 }
 
 .keen-btn, .keen-btn-dark {

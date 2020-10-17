@@ -60,6 +60,11 @@ body {
 .nav-link:hover {
     color: $default-btn-hover-color;
 }    
+.nav-input {
+    padding: 10px;
+    border: none;
+    outline: 0;
+}    
  
 // Nav link active colors
 .nav-link-active {
@@ -87,13 +92,15 @@ body {
     border-bottom: solid 4px $yellow;
 } 
 
-.input {
-    border: solid 3px $default-btn-hover-color;
+.input, .nav-input {
     font-weight: 400;
     color: $default-border-color;
     vertical-align: middle;
     font-size: 1rem;
     color: $dark;
+}
+.input {
+    border: solid 3px $default-btn-hover-color;
 }
  
 // Default button/dark button
@@ -128,7 +135,9 @@ body {
 .keen-btn:focus, .input:focus, .form-input {
     outline: 0;
 }
-.form {
+// .keen-btn:focus {
+// } 
+.form { 
     display: flex;
     flex-direction: column;
     max-width: 700px;
