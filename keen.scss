@@ -35,7 +35,8 @@ body {
 .nav {
     background-color: $dark;
     padding: 1.5rem;
-}   
+    width: 100vmax;
+}    
 .nav-items {
     display: flex;
     flex-direction: row;
@@ -233,9 +234,6 @@ body {
 .txt-center {
     align-items: center;
 } 
-.border {
-    border: 1px solid $default-border-color;
-}
 .rounded-max {
     border-radius: 3rem;
 } 
@@ -244,4 +242,33 @@ body {
 } 
 .rounded-min {
     border-radius: .25rem;
+} 
+
+// Borders
+.border {
+    border: 2px solid $default-border-color;
+}
+.border-b {
+    border-bottom: solid 2px $default-border-color;
+} 
+.border-b-dark {
+    border-bottom: solid 2px $dark;
+}    
+.border-b-red {
+    border-bottom: solid 2px $red;
+}
+.border-b-green {
+    border-bottom: solid 2px $green;
+}
+.border-b-blue {
+    border-bottom: solid 2px $blue;
+}
+.border-b-purple {
+    border-bottom: solid 2px $purple;
+}  
+.border-b-orange {
+    border-bottom: solid 2px $orange;
+}  
+.border-b-yellow {
+    border-bottom: solid 2px $yellow;
 } 
