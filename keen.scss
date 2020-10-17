@@ -34,14 +34,14 @@ body {
 // Default nav
 .nav {
     background-color: $dark;
-    padding: 1.5rem;
-    width: 100vmax;
+    padding: 1.25rem;
+    // width: 100%;
 }     
 .nav-items {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    list-style-type: none;
+    list-style-type: none; 
 }
 .nav-right-area {
     display: flex; 
@@ -50,7 +50,7 @@ body {
 } 
 .nav-link {
     text-decoration: none;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     color: $default-border-color;
     margin-right: 3rem;
     transition: 0.2s;
@@ -94,29 +94,48 @@ body {
     color: $dark;
 }
  
-// Default button
-.keen-btn {
+// Default button/dark button
+.keen-btn, .keen-btn-dark {
     display: inline-block; 
     font-weight: 400;
-    color: $default-border-color;
     text-align: center;
     vertical-align: middle;
     background-color: transparent;
     border: 1px solid $default-border-color;
-    padding: .5rem;
+    padding: .35rem;
     font-size: 1rem;
     line-height: 1.5;
     transition: 0.2s;
 }
+.keen-btn {
+    color: $default-border-color;
+}
 .keen-btn:hover {
-    border-color: $default-btn-hover-color;
     color: $default-btn-hover-color;
     box-shadow: 4px 4px;
+    transform: skewX(2deg);
 }
-.keen-btn:focus, .input:focus {
+.keen-btn-dark {
+    color: $dark;
+}
+.keen-btn-dark:hover {
+    color: $hover-dark;
+    box-shadow: 4px 4px $default-btn-hover-color;
+    transform: skewX(2deg);
+} 
+.keen-btn:focus, .input:focus, .form-input {
     outline: 0;
 }
-
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+}
+.form-input {
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
 // Transparent button color classes
 .btn-dark {
     border-color: $dark;
@@ -194,6 +213,32 @@ body {
     background-color: $yellow;
 }
 
+// Font color classes
+.txt-light {
+    color: $default-border-color;
+}
+.txt-dark {
+    color: $dark;
+}
+.txt-red {
+    color: $red;
+}
+.txt-green {
+    color: $green; 
+}
+.txt-blue {
+    color: $blue;
+}
+.txt-purple {
+    color: $purple;
+}
+.txt-orange {
+    color: $orange;
+}
+.txt-yellow {
+    color: $yellow;
+}
+
 // Paddings NEED FINISHING
 .pad-5 {
     padding: 3rem;
@@ -244,6 +289,22 @@ body {
     margin-top: .5rem;
 }
 
+.mar-b-5 {
+    margin-bottom: 2rem;
+}
+.mar-b-4 {
+    margin-bottom: 1.75rem;
+}
+.mar-b-3 {
+    margin-bottom: 1.5rem;
+}
+.mar-b-2 {
+    margin-bottom: 1rem;
+}
+.mar-b-1 {
+    margin-bottom: .5rem;
+}
+
 .mar-r-5 {
     margin-right: 2rem;
 }
@@ -259,6 +320,23 @@ body {
 .mar-r-1 {
     margin-right: .5rem;
 }
+
+.mar-l-5 {
+    margin-left: 2rem;
+}
+.mar-l-4 { 
+    margin-left: 1.75rem;
+}
+.mar-l-3 {
+    margin-left: 1.5rem;
+}
+.mar-l-2 {
+    margin-left: 1rem;
+}
+.mar-l-1 {
+    margin-left: .5rem;
+}
+
 .mar-auto {
     margin: auto;
 }

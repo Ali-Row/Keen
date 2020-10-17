@@ -9,8 +9,7 @@ body {
 
 .nav {
   background-color: #1f1e1e;
-  padding: 1.5rem;
-  width: 100vmax;
+  padding: 1.25rem;
 }
 
 .nav-items {
@@ -42,7 +41,7 @@ body {
 
 .nav-link {
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   color: #e6eaed;
   margin-right: 3rem;
   -webkit-transition: 0.2s;
@@ -94,30 +93,63 @@ body {
   color: #1f1e1e;
 }
 
-.keen-btn {
+.keen-btn, .keen-btn-dark {
   display: inline-block;
   font-weight: 400;
-  color: #e6eaed;
   text-align: center;
   vertical-align: middle;
   background-color: transparent;
   border: 1px solid #e6eaed;
-  padding: 0.5rem;
+  padding: 0.35rem;
   font-size: 1rem;
   line-height: 1.5;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
+.keen-btn {
+  color: #e6eaed;
+}
+
 .keen-btn:hover {
-  border-color: #ffffff;
   color: #ffffff;
   -webkit-box-shadow: 4px 4px;
           box-shadow: 4px 4px;
+  -webkit-transform: skewX(2deg);
+          transform: skewX(2deg);
 }
 
-.keen-btn:focus, .input:focus {
+.keen-btn-dark {
+  color: #1f1e1e;
+}
+
+.keen-btn-dark:hover {
+  color: #2d2c2c;
+  -webkit-box-shadow: 4px 4px #ffffff;
+          box-shadow: 4px 4px #ffffff;
+  -webkit-transform: skewX(2deg);
+          transform: skewX(2deg);
+}
+
+.keen-btn:focus, .input:focus, .form-input {
   outline: 0;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 700px;
+}
+
+.form-input {
+  padding: 10px;
+  margin-bottom: 5px;
+  font-size: 1rem;
 }
 
 .btn-dark {
@@ -222,6 +254,38 @@ body {
   background-color: #d6d639;
 }
 
+.txt-light {
+  color: #e6eaed;
+}
+
+.txt-dark {
+  color: #1f1e1e;
+}
+
+.txt-red {
+  color: #d43939;
+}
+
+.txt-green {
+  color: #42d15a;
+}
+
+.txt-blue {
+  color: #117dcf;
+}
+
+.txt-purple {
+  color: #6039d6;
+}
+
+.txt-orange {
+  color: #d68f39;
+}
+
+.txt-yellow {
+  color: #d6d639;
+}
+
 .pad-5 {
   padding: 3rem;
 }
@@ -282,6 +346,26 @@ body {
   margin-top: 0.5rem;
 }
 
+.mar-b-5 {
+  margin-bottom: 2rem;
+}
+
+.mar-b-4 {
+  margin-bottom: 1.75rem;
+}
+
+.mar-b-3 {
+  margin-bottom: 1.5rem;
+}
+
+.mar-b-2 {
+  margin-bottom: 1rem;
+}
+
+.mar-b-1 {
+  margin-bottom: 0.5rem;
+}
+
 .mar-r-5 {
   margin-right: 2rem;
 }
@@ -300,6 +384,26 @@ body {
 
 .mar-r-1 {
   margin-right: 0.5rem;
+}
+
+.mar-l-5 {
+  margin-left: 2rem;
+}
+
+.mar-l-4 {
+  margin-left: 1.75rem;
+}
+
+.mar-l-3 {
+  margin-left: 1.5rem;
+}
+
+.mar-l-2 {
+  margin-left: 1rem;
+}
+
+.mar-l-1 {
+  margin-left: 0.5rem;
 }
 
 .mar-auto {
