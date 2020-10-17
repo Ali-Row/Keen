@@ -35,12 +35,14 @@ body {
 .nav {
     background-color: $dark;
     padding: 1.25rem;
+    align-items: center;
     // width: 100%;
 }     
 .nav-items {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
     list-style-type: none; 
 }
 .nav-right-area {
