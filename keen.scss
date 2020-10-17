@@ -1,9 +1,12 @@
-// Default vars
+// Default button color
 $default-border-color: #e6eaed;
 $default-btn-hover-color: #ffffff;
 
-// Colours
-$dark: rgb(41, 41, 41);
+// Default nav color
+$default-nav-color: #cbc5c5;
+
+// Colors
+$dark: rgb(31, 30, 30);
 $red: rgb(212, 57, 57);
 $green: rgb(66, 209, 90);
 $blue: rgb(17, 125, 207);
@@ -11,8 +14,8 @@ $purple: rgb(96, 57, 214);
 $orange: rgb(214, 143, 57);
 $yellow: rgb(214, 214, 57);
 
-// Hover colours
-$hover-dark: rgb(55, 55, 55);
+// Hover colors
+$hover-dark: rgb(45, 44, 44);
 $hover-red: rgb(224, 72, 72);
 $hover-green: rgb(93, 231, 116);
 $hover-blue: rgb(70, 132, 199);
@@ -21,8 +24,24 @@ $hover-orange: rgb(221, 158, 80);
 $hover-yellow: rgb(235, 235, 86);
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(66, 64, 64);
 }
+
+// Default nav
+.nav {
+    background-color: $default-nav-color;
+    padding: 1rem;
+}   
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.nav-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+} 
 
 // Default button
 .keen-btn {
@@ -47,14 +66,14 @@ body {
     outline: 0;
 }
 
-// Button colour classes
+// Transparent button color classes
 .btn-dark {
     border-color: $dark;
 }
 .btn-dark:hover {
     border-color: $hover-dark;
     box-shadow: 4px 4px $hover-dark;
-}
+} 
 .btn-red {
     border-color: $red;
 }
@@ -98,10 +117,38 @@ body {
     box-shadow: 4px 4px $hover-yellow;
 }
 
-// Text colour classes
-.txt-dark {
-    color: $dark;
+// Solid button color classes
+.solid-light {
+    background-color: $default-border-color;
 }
-.txt-dark:hover {
-    color: $hover-dark;
+.solid-dark {
+    background-color: $dark;
 }
+.solid-red {
+    background-color: $red;
+}
+.solid-green {
+    background-color: $green; 
+}
+.solid-blue {
+    background-color: $blue;
+}
+.solid-purple {
+    background-color: $purple;
+}
+.solid-orange {
+    background-color: $orange;
+}
+.solid-yellow {
+    background-color: $yellow;
+}
+
+
+
+
+
+
+// Text color classes
+// .txt-dark {
+//     color: $dark;
+// } 

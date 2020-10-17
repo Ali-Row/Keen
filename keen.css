@@ -1,5 +1,29 @@
 body {
-  background-color: white;
+  background-color: #424040;
+}
+
+.nav {
+  background-color: #cbc5c5;
+  padding: 1rem;
+}
+
+.nav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.5rem;
 }
 
 .keen-btn {
@@ -29,13 +53,13 @@ body {
 }
 
 .btn-dark {
-  border-color: #292929;
+  border-color: #1f1e1e;
 }
 
 .btn-dark:hover {
-  border-color: #373737;
-  -webkit-box-shadow: 4px 4px #373737;
-          box-shadow: 4px 4px #373737;
+  border-color: #2d2c2c;
+  -webkit-box-shadow: 4px 4px #2d2c2c;
+          box-shadow: 4px 4px #2d2c2c;
 }
 
 .btn-red {
@@ -98,11 +122,35 @@ body {
           box-shadow: 4px 4px #ebeb56;
 }
 
-.txt-dark {
-  color: #292929;
+.solid-light {
+  background-color: #e6eaed;
 }
 
-.txt-dark:hover {
-  color: #373737;
+.solid-dark {
+  background-color: #1f1e1e;
+}
+
+.solid-red {
+  background-color: #d43939;
+}
+
+.solid-green {
+  background-color: #42d15a;
+}
+
+.solid-blue {
+  background-color: #117dcf;
+}
+
+.solid-purple {
+  background-color: #6039d6;
+}
+
+.solid-orange {
+  background-color: #d68f39;
+}
+
+.solid-yellow {
+  background-color: #d6d639;
 }
 /*# sourceMappingURL=keen.css.map */
