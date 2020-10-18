@@ -135,8 +135,6 @@ body {
 .keen-btn:focus, .input:focus, .form-input {
     outline: 0;
 }
-// .keen-btn:focus {
-// } 
 .form { 
     display: flex;
     flex-direction: column;
@@ -146,6 +144,7 @@ body {
     padding: 10px;
     margin-bottom: 5px;
     font-size: 1rem;
+    border: solid 2px $default-btn-hover-color;
 }
 .form > label {
     margin: 8px;
@@ -363,7 +362,7 @@ body {
 } 
 .rounded-max {
     border-radius: 3rem;
-} 
+}  
 .rounded-med {
     border-radius: .75rem;
 }  
