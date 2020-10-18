@@ -6,11 +6,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="keen.css">
     
-    <title>Keen CSS</title>
+    <title>Keen CSS Demo</title>
 </head>
 <body>
 
-    <nav class="nav bg-purple">
+    <!-- Navbar build block -->
+    <nav class="nav bg-purple shad-min">
         <ul class="nav-items">
             <li>
                 <h1 class="txt-light">Keen CSS</h1>
@@ -35,6 +36,7 @@
     <div class="container txt-center">
         <h1 class="txt-light pad-1 mar-l-3">Keen CSS Demo!</h1>
 
+        <!-- Keen buttons -->
         <div class="mar-l-5">
             <button class="mar-1 keen-btn">Hello World!</button>
             <button class="mar-1 keen-btn btn-dark">Hello World!</button>
@@ -90,25 +92,89 @@
             <button class="mar-1 keen-btn-dark btn-yellow rounded-min bg-yellow">Hello World!</button>
         </div>
 
-        <section class="container mar-t-5 mar-l-5">
-            <div class="mar-auto">
+        <!-- Form group build block -->
+        <section class="container disp-flex jc-space-ar mar-t-5 mar-l-5">
+            <div class="mar-auto wid-100">
                 <form action="submit" class="form">
                     <label class="txt-light" for="name">Name:</label>
-                    <input class="rounded-min form-input" type="name" placeholder="John Smith" for="Name" class="input mar-r-1">
+                    <input class="shad-min form-input" type="name" placeholder="John Smith" for="Name" class="input mar-r-1">
                     <label class="txt-light" for="email">Email:</label>
-                    <input class="rounded-min form-input" type="email" placeholder="Example@email.com" for="Email" class="input mar-r-1">
+                    <input class="shad-min form-input" type="email" placeholder="Example@email.com" for="Email" class="input mar-r-1">
                     <label class="txt-light" for="password">Password:</label>
-                    <input class="rounded-min form-input" type="password" placeholder="Password" for="Password" class="input mar-r-1">
+                    <input class="shad-min form-input" type="password" placeholder="Password" for="Password" class="input mar-r-1">
                     <label class="txt-light" for="number">Number:</label>
-                    <input class="rounded-min form-input" type="phone-number" placeholder="(808) 555-5555" for="Number" class="input mar-r-1">
+                    <input class="shad-min form-input" type="phone-number" placeholder="(808) 555-5555" for="Number" class="input mar-r-1">
+                </form>
+
+                <button class="keen-btn mar-t-1">Search</button>
+            </div>
+
+            <div class="mar-auto wid-100">
+                <form action="submit" class="form">
+                    <label class="txt-light" for="name">Name:</label>
+                    <input class="shad-min rounded-min form-input" type="name" placeholder="John Smith" for="Name" class="input mar-r-1">
+                    <label class="txt-light" for="email">Email:</label>
+                    <input class="shad-min rounded-min form-input" type="email" placeholder="Example@email.com" for="Email" class="input mar-r-1">
+                    <label class="txt-light" for="password">Password:</label>
+                    <input class="shad-min rounded-min form-input" type="password" placeholder="Password" for="Password" class="input mar-r-1">
+                    <label class="txt-light" for="number">Number:</label>
+                    <input class="shad-min rounded-min form-input" type="phone-number" placeholder="(808) 555-5555" for="Number" class="input mar-r-1">
                 </form>
 
                 <button class="rounded-min keen-btn mar-t-1">Search</button>
             </div>
         </section>
+
+        <div class="container disp-flex jc-space-ar">
+            <!-- Tile build block 1 -->
+            <div class="tile mar-5 shad-min" style="max-width: 25rem;">
+                <img class="tile-img" src="https://cdn-media-1.freecodecamp.org/images/1*H0IBb9kvGI3eIuL1sGmWug.jpeg" alt="CSS Logo" style="max-width: 100%;">
+                <div class="tile-header">
+                    <h2 class="txt-light mar-t-3">Here is an example title</h2>
+                </div>
+                <div class="tile-content txt-light">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora excepturi molestias harum? Nesciunt, hic numquam! Minus commodi soluta placeat vitae dolore magni quisquam unde, expedita maiores laudantium modi culpa nostrum!
+                </div>
+                <div class="tile-btns">
+                    <button class="keen-btn mar-b-3">Demo</button>
+                    <button class="keen-btn mar-b-3">Go Somewhere</button>
+                </div>
+            </div>
+
+            <!-- Tile build block 2 -->
+            <div class="tile mar-5 shad-min" style="max-width: 25rem;">
+                <img class="tile-img" src="https://cdn-media-1.freecodecamp.org/images/1*H0IBb9kvGI3eIuL1sGmWug.jpeg" alt="CSS Logo" style="max-width: 100%;">
+                <div class="tile-header">
+                    <h2 class="txt-light mar-t-3">Here is an example title</h2>
+                </div>
+                <div class="tile-content txt-light">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora excepturi molestias harum? Nesciunt, hic numquam! Minus commodi soluta placeat vitae dolore magni quisquam unde, expedita maiores laudantium modi culpa nostrum!
+                </div>
+                <div class="tile-btns">
+                    <button class="keen-btn mar-b-3">Demo</button>
+                    <button class="keen-btn mar-b-3">Go Somewhere</button>
+                </div>
+            </div>
+
+            <!-- Tile build block 3 -->
+            <div class="tile mar-5 shad-min rounded-med bg-dark" style="max-width: 25rem;">
+                <img class="tile-img rounded-t-med" src="https://images.pexels.com/photos/1121123/pexels-photo-1121123.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="CSS Logo" style="max-width: 100%;">
+                <div class="tile-header">
+                    <h2 class="txt-light mar-t-3">Here is an example title</h2>
+                </div>
+                <div class="tile-content txt-light">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, perspiciatis! Beatae quam eaque maiores vero sapiente odit, recusandae voluptatem veniam inventore, laborum rerum assumenda dolorum ab distinctio aliquam facilis obcaecati.
+                </div>
+                <div class="tile-btns">
+                    <button class="keen-btn mar-b-3 rounded-med btn-purple bg-purple">Demo</button>
+                    <button class="keen-btn mar-b-3 rounded-med btn-purple bg-purple">Go Somewhere</button>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <footer>
+    <!-- Footer build block -->
+    <footer class="pad-5 bg-purple mar-t-5">
 
     </footer>
 

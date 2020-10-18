@@ -36,7 +36,6 @@ body {
     background-color: $dark;
     padding: 1.25rem;
     align-items: center;
-    // width: 100%;
 }     
 .nav-items {
     display: flex;
@@ -110,28 +109,29 @@ body {
     text-align: center;
     vertical-align: middle;
     background-color: transparent;
-    border: 1px solid $default-border-color;
-    padding: .35rem;
+    border: .13rem solid $default-border-color;
+    padding: .35rem; 
     font-size: 1rem;
     line-height: 1.5;
     transition: 0.2s;
 }
 .keen-btn {
     color: $default-border-color;
-}
+    padding: 7px 12px 7px 12px;
+} 
 .keen-btn:hover {
     color: $default-btn-hover-color;
     box-shadow: 4px 4px;
     transform: skewX(2deg);
 }
-.keen-btn-dark {
+.keen-btn-dark { 
     color: $dark;
 }
 .keen-btn-dark:hover {
     color: $hover-dark;
     box-shadow: 4px 4px $default-btn-hover-color;
     transform: skewX(2deg);
-} 
+}  
 .keen-btn:focus, .input:focus, .form-input {
     outline: 0;
 }
@@ -148,6 +148,25 @@ body {
 }
 .form > label {
     margin: 8px;
+}
+.tile {
+    background-color: rgb(99, 96, 96);
+}
+.tile-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.tile-content {
+    max-width: 75%;
+    margin: 0 auto;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.tile-btns {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
 }
 // Transparent button color classes
 .btn-dark {
@@ -360,6 +379,20 @@ body {
 .txt-center {
     align-items: center;
 } 
+.wid-100 {
+    width: 100%; 
+}
+// Flex
+.disp-flex {
+    display: flex;
+}
+.jc-space-ar {
+    justify-content: space-around;
+}
+.jc-space-ev {
+    justify-content: space-evenly;
+} 
+// Rounded
 .rounded-max {
     border-radius: 3rem;
 }  
@@ -369,7 +402,30 @@ body {
 .rounded-min {
     border-radius: .25rem;
 } 
-
+.rounded-t-max {
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+}
+.rounded-t-med {
+    border-top-left-radius: .75rem;
+    border-top-right-radius: .75rem;
+}
+.rounded-t-min {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+.rounded-b-max {
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+.rounded-b-med {
+    border-bottom-left-radius: .75rem;
+    border-bottom-right-radius: .75rem;
+}
+.rounded-b-min {
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
 // Borders
 .border {
     border: 2px solid $default-border-color;
@@ -398,3 +454,8 @@ body {
 .border-b-yellow {
     border-bottom: solid 2px $yellow;
 } 
+
+// Shadows
+.shad-min {
+    box-shadow: 2px 2px 8px #262626;
+}

@@ -114,7 +114,7 @@ body {
   text-align: center;
   vertical-align: middle;
   background-color: transparent;
-  border: 1px solid #e6eaed;
+  border: 0.13rem solid #e6eaed;
   padding: 0.35rem;
   font-size: 1rem;
   line-height: 1.5;
@@ -124,6 +124,7 @@ body {
 
 .keen-btn {
   color: #e6eaed;
+  padding: 7px 12px 7px 12px;
 }
 
 .keen-btn:hover {
@@ -170,6 +171,32 @@ body {
 
 .form > label {
   margin: 8px;
+}
+
+.tile {
+  background-color: #636060;
+}
+
+.tile-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.tile-content {
+  max-width: 75%;
+  margin: 0 auto;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.tile-btns {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px;
 }
 
 .btn-dark {
@@ -436,6 +463,27 @@ body {
           align-items: center;
 }
 
+.wid-100 {
+  width: 100%;
+}
+
+.disp-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.jc-space-ar {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.jc-space-ev {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
 .rounded-max {
   border-radius: 3rem;
 }
@@ -446,6 +494,36 @@ body {
 
 .rounded-min {
   border-radius: 0.25rem;
+}
+
+.rounded-t-max {
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+}
+
+.rounded-t-med {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.rounded-t-min {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.rounded-b-max {
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+
+.rounded-b-med {
+  border-bottom-left-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+
+.rounded-b-min {
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
 }
 
 .border {
@@ -482,5 +560,10 @@ body {
 
 .border-b-yellow {
   border-bottom: solid 2px #d6d639;
+}
+
+.shad-min {
+  -webkit-box-shadow: 2px 2px 8px #262626;
+          box-shadow: 2px 2px 8px #262626;
 }
 /*# sourceMappingURL=keen.css.map */
