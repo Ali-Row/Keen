@@ -147,6 +147,9 @@ body {
     margin-bottom: 5px;
     font-size: 1rem;
 }
+.form > label {
+    margin: 8px;
+}
 // Transparent button color classes
 .btn-dark {
     border-color: $dark;
@@ -284,6 +287,7 @@ body {
     margin: .5rem;
 } 
 
+// Margin tops
 .mar-t-5 {
     margin-top: 2rem;
 }
@@ -300,6 +304,7 @@ body {
     margin-top: .5rem;
 }
 
+// Margin bottoms
 .mar-b-5 {
     margin-bottom: 2rem;
 }
@@ -316,6 +321,7 @@ body {
     margin-bottom: .5rem;
 }
 
+// Margin rights
 .mar-r-5 {
     margin-right: 2rem;
 }
@@ -332,6 +338,7 @@ body {
     margin-right: .5rem;
 }
 
+// Margin lefts
 .mar-l-5 {
     margin-left: 2rem;
 }
@@ -347,11 +354,10 @@ body {
 .mar-l-1 {
     margin-left: .5rem;
 }
-
+// Centerings
 .mar-auto {
     margin: auto;
 }
-
 .txt-center {
     align-items: center;
 } 
@@ -360,7 +366,7 @@ body {
 } 
 .rounded-med {
     border-radius: .75rem;
-} 
+}  
 .rounded-min {
     border-radius: .25rem;
 } 

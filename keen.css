@@ -167,6 +167,10 @@ body {
   font-size: 1rem;
 }
 
+.form > label {
+  margin: 8px;
+}
+
 .btn-dark {
   border-color: #1f1e1e;
 }
